@@ -1,0 +1,19 @@
+/* This CSS file contains intentional build errors */
+
+.invalid-css {
+    color: red
+    /* Missing semicolon */
+    background-color: blue
+    
+    /* Invalid property */
+    invalid-property: value;
+    
+    /* Malformed media query */
+    @media screen and (max-width: 768px {
+        /* Missing closing parenthesis */
+        .content { width: 100% }
+    }
+    
+    /* Invalid hex color */
+    border: 1px solid #zzzzzz;
+}
