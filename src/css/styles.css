@@ -1,0 +1,30 @@
+/* CSS file with intentional syntax errors for testing */
+
+body {
+  background-color: #f0f0f0
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  color: blue
+  font-size: 24px;
+  
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Missing closing brace */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  
+/* Invalid CSS property */
+.invalid-style {
+  background-colour: red;
+  font: 16px;
+}
