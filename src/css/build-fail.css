@@ -1,0 +1,10 @@
+/* 故意引入CSS语法错误 */
+.header {
+  color: red;
+  /* 缺少闭合大括号 */
+  font-size: 16px;
+
+/* 另一个语法错误：缺少选择器 */
+  margin: 0;
+  padding: 10px;
+}
